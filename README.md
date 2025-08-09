@@ -1,1 +1,1 @@
-salamlara buedane da
+cyber
