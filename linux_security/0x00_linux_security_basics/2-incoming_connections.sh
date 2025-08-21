@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo iptables -P INPUT DROP; sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+ufw allow proto tcp from any to any port 80 && ufw default deny incoming
