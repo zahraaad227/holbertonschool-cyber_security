@@ -1,2 +1,2 @@
 #!/bin/bash
-nslookup -type=PTR $1
+nslookup -query=ptr $1
