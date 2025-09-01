@@ -1,2 +1,2 @@
 #!/bin/bash
-nslookup -type=mx holbertonschool.com
+nslookup -type=mx "$1"
